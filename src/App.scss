@@ -1,0 +1,96 @@
+h1 {
+    color: rgb(57, 21, 21);
+    
+    text-align: center;
+  }
+  .project_button{
+     width: 200px;
+  }
+  .container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 50px; 
+   
+    
+  }
+  
+  .container a {
+    color: rgb(14, 13, 13); 
+    text-decoration: none; 
+    margin: 0 10px; 
+    font-size: 20px; 
+  }
+  
+  .container a:hover {
+    color: #daaaaa; 
+  }
+ 
+.Router {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.Link {
+  text-decoration: none;
+  color: #333;
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+
+.Link[aria-current="page"] {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.Routes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.Route {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.home_container{
+  
+  width: 90%;
+  height: 94.6vh;
+  margin: 0;
+  padding: 20px;
+  // background-image: url('./pic_background.jpg');
+  
+}
+body{
+  background-image: url('./pic_background.jpg');
+  
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

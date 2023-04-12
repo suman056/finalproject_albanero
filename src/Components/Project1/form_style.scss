@@ -1,0 +1,217 @@
+h2{
+  text-align: center;
+}
+
+
+.main_container {
+  align-items: center;
+  background-color: #555252;
+
+
+  top: 50vh;
+  width: 60vh;
+  height: 80vh;
+  
+  border: 2px transparent;
+  border-radius: 25px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  box-shadow: 5px 5px 10px 5px #5e5c5c;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: #d4d5df;
+  border-radius: 10px!important;
+  border: 0;
+  box-sizing: border-box;
+  color: #370404;
+  font-size: 18px;
+  height: 70px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 30vh;
+}
+
+input {
+  background-color: #d4d5df;
+  border-radius: 8px;
+  border: 0;
+  box-sizing: border-box;
+  color: #370404;
+  font-size: 18px;
+  height: 70px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 30vh;
+}
+
+.placeholder {
+  color: #370404;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+input:focus ~ .placeholder,
+input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+button {
+  background-color: #370404;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 10vh;
+  
+}
+
+button:active {
+  background-color: rgb(202, 196, 189);
+  color: #370404;
+}
+
+.text_response {
+  color: rgb(236, 233, 233);
+
+  padding-left: 2px;
+  left: 36%;
+
+  .text {
+    text-align: center;
+  }
+}
+
+.password_eye {
+  margin-left: -30px;
+  cursor: pointer;
+}
+.errorMessage {
+  color: red;
+}
+.table_format{
+  height: 50vh;
+  overflow-y: auto;
+table {
+  width: 50vh;
+  
+  thead {
+    height: 30px;
+    th {
+      border: 1px solid;
+      height: 30px;
+      background-color: #370404;
+      color: #eee;
+      position: sticky;
+      border-radius: 10px;
+      top: 0;
+      max-width: 40px;
+      min-width: 40px;
+    }
+  }
+  tbody {
+    width: 50vh;
+    color: #666669;
+  
+     
+    overflow-y: auto;
+
+    tr {
+
+      
+      td {
+        background-color: #d9d9dc;
+        flex-wrap: wrap;
+        align-content: center;
+        
+        color: #370404;
+        height:20px;
+        //  width: 100vh;
+        border: 1px solid;
+        border-radius: 10px;
+        max-width: 80px;
+        min-width: 80px;
+        max-height: auto;
+        overflow-wrap: break-word;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+    }
+  }
+}
+}
+
+
+::-webkit-scrollbar {
+  width: 20px;
+  background: transparent;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(93, 92, 92); 
+  border-radius: 10px;
+ 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#370404; 
+  border-radius: 10px;
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #370404; 
+  height: 10px;
+  
+}
+.buttons{
+  display: flex;
+  width: 30vh;
+  justify-content: space-between;
+}
+.checkbox_class{
+  width: 14px;
+  height: 30px;
+  accent-color:#370404;
+}
+.edit_button_row{
+  width: 30px;
+  height:40px;
+  background-color: #d4d5df;
+  color :#370404;
+  
+  margin:auto;
+  display:block;
+  
+
+}
+.edit_table_data{
+  width: 20px;
+  height: 20px ;
+  
+}
+.password_input{
+  width: 25vh;
+  
+}
+.draggable {
+  top: auto !important;
+  left: auto !important;
+}
