@@ -43,7 +43,7 @@ function Project3() {
         
       </div>
       {isOpen && (
-        <div className="dropdown-options">{option.map((value)=><div className="dropdown-option" onClick={() => handleOptionClick(value)}>
+        <div className="dropdown-options">{option.map((value,index)=><div className="dropdown-option" onClick={() => handleOptionClick(value)} key={index}>
         {value}
       </div>)}
         </div>

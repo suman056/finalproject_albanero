@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../App.scss"
+import "../../app.scss"
 import {  Link } from "react-router-dom";
 import Button from '@mui/material/Button';
 

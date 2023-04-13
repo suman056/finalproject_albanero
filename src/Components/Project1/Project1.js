@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./app.scss";
 import Forms from "./Forms";
 import TableInfo from "./TableInfo";
 import React, { useState } from "react";
@@ -7,6 +7,7 @@ function Porject1() {
   const [updateData, setUpdateData] = useState({});
   function sendData(value) {
     setData(value);
+    
     setUpdateData({});
   }
   function dataUpdate(value) {

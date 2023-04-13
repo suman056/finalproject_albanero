@@ -4,7 +4,7 @@ import Home from "./Components/Home/Home";
 import Project1 from "./Components/Project1/Project1";
 import Project2 from "./Components/Porject2/Project2";
 import Project3 from "./Components/Project3/Project3";
-import "./App.scss"
+import "./app.scss"
 import { Button } from "@mui/material";
 const App = () => {
   return (
