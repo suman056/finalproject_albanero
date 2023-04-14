@@ -1,0 +1,88 @@
+
+  
+   .main_container1{
+    height: 80%;
+    .project4{
+      height: 90%;
+      width: 100%;
+      background-color: aliceblue;
+      border: 1px solid black;
+      border-radius: 10px;
+      margin: 10px;
+      
+
+      .header_style {
+        width: 100%;
+        background-color: black;
+        height: 10%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        
+      }
+
+      .footer_style {
+        display: flex;
+       
+        flex-direction: row;
+        gap: 12px;
+        width: 100%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 90%;
+        flex: 1;
+ 
+        .div1 {
+          min-width: 100px;
+
+          background-color: rgb(233, 141, 20);
+          border-bottom-left-radius: 10px;
+        }
+
+        .main1 {
+          display: flex;
+
+          flex-direction: column;
+          gap: 12px;
+        //   justify-content: space-between;
+          height: 100%;
+          flex: 1;
+          .div_time {
+            height: 90%;
+            margin-top: 2px;
+            flex: 1;
+
+            span {
+              display: flex;
+            //   align-items: center;
+              flex-wrap: wrap;
+
+             gap: 12px;
+            //   justify-content: space-between;
+              max-height: 100%;
+              max-width: 100%;
+              overflow-y: auto;
+              overflow-x: auto;
+              flex: 1;
+
+              h1 {
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                border-radius: 10px;
+              }
+            }
+          }
+
+          .div_time1 {
+            h2 {
+              display: flex;
+              justify-content: flex-end;
+            }
+          }
+        }
+      }
+    }
+  
+  }
+
+
